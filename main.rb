@@ -68,7 +68,7 @@ def render_player args
 
   }
 
-  p_angle = args.state.player[:angle].to_radians  
+  args.state.player[:angle].to_radians  
 end
 
 def move_player args
